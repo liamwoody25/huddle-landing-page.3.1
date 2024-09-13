@@ -1,0 +1,391 @@
+/************  utils  ***********/
+
+:root {
+    --primary-color:#FF52BF;
+    --card-txt-color:#808D99;
+    --bg-color:#EBFBFF;
+    --hd-color:#00252E;
+    --footer-color:#00252E;
+}
+
+/**********  fonts  **********/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: var(--hd-color);
+    font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    font-weight:600;
+}
+
+h2 {
+    color: var(--hd-color);
+    font-size: 32px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--hd-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+p {
+    color: var(--card-txt-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/**********  components  ********/
+
+a:hover {
+    opacity: 0.5;
+}
+
+.button-1 {
+    width: 200px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffff;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.10);
+    color: #00252E;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-2 {
+    width: 280px;
+    height: 56px;
+    border-radius: 28px;
+    background: var(--primary-color);
+    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+}
+
+.button-3 {
+    width: 400px;
+    height: 80px;
+    background: var(--primary-color);
+    border-radius: 34px;
+    filter: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+/*******  body **********/
+
+body {
+    background-image: url(/public/assets/images/bg-hero-desktop.svg);
+    background-color: var(--bg-color);
+    margin: 57px 80px 0px;
+}
+
+/********  header  ********/
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-shrink: inherit;
+    width: 200px;
+    height: 31px;
+}
+
+
+
+/********** hero-section  *********/
+
+.hero-container {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-content {
+    margin: 71px 54px 0px 0px;
+}
+
+
+.hero-content p {
+    margin-bottom: 32px;
+    color: #00252E;
+    line-height: 27px;
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+.mockup-image {
+    object-fit: contain;
+    width: 60%;
+}
+
+/*******  main-container  *******/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 160px 0px;
+    justify-content: center;
+}
+
+.grow-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+    margin-bottom: 32px;
+}
+
+.grow-content {
+    margin: 151px 100px 150px 120px;
+   
+}
+
+.grow-content h3 {
+    font-size: 1.75em;
+}
+
+.grow-content p {
+    width: 100%;
+    line-height: 27px;
+    font-size: 1.125em;
+}
+
+.grow-image {
+    margin: 52px 32px 53px 0px;
+    width: 30%;
+}
+
+/*******  flow-card  *******/
+
+.flow-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 440px;
+    background: #ffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+    margin-bottom: 32px;
+}
+
+.flow-content {
+   justify-content: center;
+    margin: 151px 29px 151px 99px;
+}
+
+.flow-content h3 {
+    font-size: 1.75em;
+}
+
+.flow-content p {
+    width: 100%;
+    line-height: 27px;
+    font-size: 1.125em;
+}
+
+.flow-image {
+    margin: 70px 35px 71px 120px;
+    width: 30%;
+}
+
+
+/***********  user-card  ************/
+
+.user-card {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    width: 100%;
+    height: 440px;
+    background: #ffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+}
+
+.user-content {
+    width: 75%;
+    margin: 100px 85px 0px 120px;
+}
+
+.user-content h3 {
+    font-size: 1.75em;
+}
+
+.user-content p {
+    width: 100%;
+    font-size: 1.125em;
+    line-height: 27px;
+}
+
+.user-image {
+    object-fit: contain;
+    margin: 60px 25px 61px;
+    width: 30%;
+}
+
+/********  CTA-card  ********/
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+    width: 70%;
+    height: 280px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+}
+
+.cta-content {
+    text-align: center;
+}
+
+
+
+
+/******* media-query  *******/
+
+@media only screen and (max-width:480px) {
+    body {
+        background-image: url(/public/assets/images/bg-hero-mobile.svg);
+        background-color: var(--bg-color);
+        margin: 31px 16px;
+    }
+
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 104px;
+        height: 16px;
+    }
+
+    .button-1 {
+        width: 96px;
+        height: 24px;
+    }
+
+    /******* hero-section  *******/
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content {
+        text-align: center;
+       margin: 0px 36px 52px 35px;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .mockup-image {
+        width: 90%;
+    }
+    /****** content-section  *******/
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .grow-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 50%;
+    }
+
+    .grow-content {
+        text-align: center;
+        margin: 26px 40px 33px 39px;
+    }
+
+
+
+    .grow-image {
+        margin: 56px 49px 49px 50px;
+        width: 75%;
+    }
+
+    /*******  flow-card  ********/
+
+    .flow-card {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+
+    .flow-content {
+        text-align: center;
+        margin: 65px 39px 54px 40px;
+    }
+
+    .flow-image {
+        margin: 65px 46px 0px 45px;
+        width: 75%;
+    }
+
+    /*******  user-card  *********/
+
+    .user-card {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 50%;
+    }
+
+    .user-content {
+        width: 79%;
+        text-align: center;
+        margin: 56px 44px 33px 40px;
+    }
+
+    .user-image {
+        margin: 59px 45px 0px 45px;
+        width: 75%;
+    }
+
+    /********  cta-container  *******/
+
+    .cta-card {
+        width: 50%;
+    }
+}
