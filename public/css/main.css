@@ -257,7 +257,7 @@ body {
     align-items: center;
     justify-content: center;
     background: #ffff;
-    width: 70%;
+    width: 71%;
     height: 280px;
     border-radius: 15px;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
@@ -386,6 +386,24 @@ body {
     /********  cta-container  *******/
 
     .cta-card {
-        width: 50%;
+        margin: 41px 12px 41px 12px;
+        height: 176px;
+        width:99%;
+    }
+
+    .cta-content {
+       
+        text-align: center;
+    }
+
+    .cta-content h2 {
+        margin-bottom: 24px;
+        font-size: 1.125em;
+    }
+
+    .button-3 {
+        font-size: 0.625em;
+        width: 200px;
+        height: 40px;
     }
 }
