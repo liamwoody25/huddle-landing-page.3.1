@@ -42,9 +42,7 @@ p {
 
 /**********  components  ********/
 
-a:hover {
-    opacity: 0.5;
-}
+
 
 .button-1 {
     width: 200px;
@@ -58,6 +56,11 @@ a:hover {
     border: 0;
     cursor: pointer;
 }
+
+.button-1:hover {
+    opacity: 0.5;
+}
+
 
 .button-2 {
     width: 280px;
@@ -73,6 +76,11 @@ a:hover {
     border: 0;
 }
 
+.button-2:hover {
+    opacity: 0.5;
+}
+
+
 .button-3 {
     width: 400px;
     height: 80px;
@@ -85,6 +93,10 @@ a:hover {
     line-height: 30px;
     border: 0;
     cursor: pointer;
+}
+
+.button-3:hover {
+    opacity: 0.5;
 }
 
 /*******  body **********/
